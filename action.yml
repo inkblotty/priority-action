@@ -1,0 +1,13 @@
+name: "priority-action"
+author: "inkblotty"
+description: "Action to sync priority labels with priority project fields"
+inputs:
+  project:
+    description: "The project where issues are found."
+    required: true
+  priority_field:
+    description: "The name of the priority field. Defaults to 'priority'."
+    required: false
+runs:
+  using: "node16"
+  main: "dist/index.js"

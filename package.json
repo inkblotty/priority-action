@@ -1,0 +1,26 @@
+{
+  "name": "priority-action",
+  "version": "1.0.0",
+  "description": "sync priority labels with priority project fields",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inkblotty/priority-action.git"
+  },
+  "keywords": [
+    "github-action",
+    "project",
+    "priority",
+    "typescript",
+    "javascript"
+  ],
+  "author": "inkblotty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inkblotty/priority-action/issues"
+  },
+  "homepage": "https://github.com/inkblotty/priority-action#readme"
+}
